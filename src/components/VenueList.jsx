@@ -1,13 +1,10 @@
 import Venue from "./Venue";;
 import React from "react";
-const VenueList = ({ venues, onClick }) => {
-  const performClick = (evt, id) => {
-    onClick(evt, id);
-  };
+const VenueList = ({ venues}) => {
   return (
     <div>
       {venues? (venues.map((venue, index) => (
-        <Venue key={index} venue={venue} onClick={performClick} />
+        <Venue key={index} venue={venue} />
       ))):("")
     }
     </div>

@@ -3,10 +3,7 @@ import Rating from "./Rating";
 import FoodAndDrinkList from "./FoodAndDrinkList";
 import React from "react";
 import { formatDistance } from "../services/Utils";
-const Venue = ({ venue, onClick }) => {
-  const performClick = (evt) => {
-    onClick(evt, venue._id);
-  };
+const Venue = ({ venue}) => {
   return (
     <div className="list-group">
       <div className="col-xs-12 col-sm-12">
