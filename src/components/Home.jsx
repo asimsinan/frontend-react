@@ -23,7 +23,7 @@ const Home = () => {
       <InputWithLabel
         id="arama"
         label="Mekan Ara:"
-        typ="text"
+        type="text"
         isFocused
         onInputChange={() => null}
         value={" "}

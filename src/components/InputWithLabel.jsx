@@ -19,7 +19,7 @@ const InputWithLabel = ({
         <input
           id={id}
           type={type}
-          value={value}
+          defaultValue={value}
           onChange={onInputChange}
           ref={inputRef}
         />
